@@ -7,9 +7,18 @@ Hello this is a demo script for group 30. We started with a single line comment 
 collins
 echo "Enter 1st person's name"
 read name
+if [ $name == Fabrice ]
+then
 echo "The first person's name is $name"
-echo "The first person's pin"
-read -s pin
-echo "Your pin is valid"
+elif [ $name =! Fabrice ]
+then
+echo "You've entered the incorrect name"
+echo "Reenter the name
+read name
+elif [ $name == Fabrice ]
+echo "You've entered the correct name"
+else
 echo " This are the individuals that were in our study group"
 echo "Fabrice, Cosma, Jumoke, Jennifer, Collins, Chidinma, & Dapo"
+echo "Bye"
+fi
