@@ -12,3 +12,10 @@ We used git diff G30/master to view the diffference btw local and remote repos
 Then used git merge G30/master to bring the changes once we approve.
 Otherwise git pull will directly merge all the files from the remote repo to your local working area
 #Now that we've finished documenting lcoally on the recently merged file, lets send it back to remote repo.
+We should make this a list of comments instead. 
+
+newRelic
+Prometheus
+Grafana
+appDynamic
+Nagios
